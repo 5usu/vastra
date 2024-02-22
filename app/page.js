@@ -24,7 +24,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center" style={{ backgroundImage: "url('noise-light.png')", display: "flex" }}>
+      {/* <div className="flex flex-col md:flex-row justify-between items-center" style={{ backgroundImage: "url('noise-light.png')", display: "flex" }}> */}
+      <div className="flex flex-col md:flex-row justify-between items-center">
           <br/>
           <br/>
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex flex-row justify-center">
@@ -37,18 +38,19 @@ export default function Home() {
       </div>
       <br/>
       <br/>
-      <div className="flex flex-col md:flex-row justify-between items-center" style={{ backgroundImage: "url('noise-light.png')", display: "flex" }}>
+
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="text-white md:w-1/2 p-4">
         <p className="bg-red text-4xl">Textile Department</p>
         <p className="text-2l flex justify-centre">Established in 1887,  the Textile Department at Veermata Jijabai Technological Institute (VJTI) is renowned for its excellence in textile education and research. With a rich legacy spanning over 137 years, the department has been at the forefront of shaping future leaders and innovators in the textile industry. We offer comprehensive undergraduate and postgraduate programs in Textile Technology, designed to equip students with a deep understanding of textile engineering principles, manufacturing processes, and management strategies. Our curriculum integrates theoretical knowledge with hands on practical experience, ensuring our graduates are well-prepared to meet the challenges of the dynamic textile sector. Our department boasts state of the art laboratories equipped with the latest machinery and technology, providing students with opportunities to gain practical insights into textile production, quality control, and research. From fiber analysis to fabric testing, our facilities offer a conducive environment for experimentation and innovation. Our faculty members are actively engaged in cutting-edge research across various domains of textile engineering and technology. From sustainable textile production to advanced textile materials, our research endeavors aim to address pressing challenges and drive innovation in the field. At VJTI Textile Department, we are committed to nurturing the next generation of textile leaders and innovators. Join us in our journey to explore, innovate, and transform the world of textiles. Explore our programs, connect with our faculty, and embark on a rewarding educational experience that will shape your future in the dynamic textile industry.</p>
         </div>
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 overflow-hidden flex flex-row justify-center">
-             <img src="textile.jpg" className="h-80 key-hig-img object-cover object-center" style={{ borderRadius: "50%" }}  />
+          <img src="textile.jpg" className="h-80 key-hig-img object-cover object-center" style={{ borderRadius: "50%" }}  />
         </div>
       </div >
       <br/>
       <br/>
-      <div className="flex flex-col md:flex-row justify-between items-center" style={{ backgroundImage: "url('noise-light.png')", display: "flex" }}>
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 overflow-hidden flex flex-row justify-center">
           <img src="https://cdn.discordapp.com/attachments/1181588462021902376/1206872476374798386/image.png?ex=65dd9694&is=65cb2194&hm=ab27c2a8fb5b1e4d9215de056a8ad22fd9c101cfb8c40e3a64e8ca2211c1b768&" className="h-80 key-hig-img object-cover object-center" style={{ borderRadius: "50%" }}  />
         </div>
