@@ -20,7 +20,10 @@ export default function my_gallery() {
     return (
       <div className="bg-gradient-to-b from-black to-black-300">
       <Navbar/>
-        <Gallery {...{images, widths, ratios}} />
+        <Gallery
+          {...{images, widths, ratios}}
+          spacing={100}
+        />
         <Footer/>
       </div>
     )
