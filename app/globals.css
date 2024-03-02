@@ -51,3 +51,10 @@ body {
   animation: filmGrain 10s infinite linear;
   /* background-image: url('film-grain.png'); */
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 3fr));
+  grid-gap: 3rem;
+  margin-bottom: 2rem;
+}
